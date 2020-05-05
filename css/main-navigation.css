@@ -20,10 +20,6 @@
     }
 }
 
-.main-navigation__social-icon {
-    width: 16px;
-}
-
 .main-navigation__inner {
     display: flex;
     align-items: center;
