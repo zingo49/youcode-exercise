@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Polskie Smaki - najlepsza restauracja w Warszawie</title>
     <meta name="description" content="Zapraszamy do najlepszej restauracji z polską kuchnią w Warszawie!">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
     <link href="css/global.css" rel="stylesheet">
     <link href="css/mian-banner.css" rel="stylesheet">
     <link href="css/container.css" rel="stylesheet">
     <link href="css/abous-us.css" rel="stylesheet">
     <link href="css/main-navigation.css" rel="stylesheet">
     <link href="css/bookmark.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
 </head>
+
 <body>
     <nav class="main-navigation">
         <div class="main-navigation__inner">
@@ -56,19 +61,20 @@
                 </li>
                 <li class="main-navigation__menu-item">
                     <a href="https://instagram.com" target=_blank" class="main-navigation__link">
-                        <img src="images/icons/social/instagram.svg" alt="Instagram" 
-                        class="main-navigation__social-icon">
+                        <img src="images/icons/social/instagram.svg" alt="Instagram"
+                            class="main-navigation__social-icon">
                     </a>
                 </li>
                 <li class="main-navigation__menu-item">
                     <a href="https://facebook.com" target=_blank" class="main-navigation__link">
-                        <img src="/images/icons/social/facebook.svg" alt="Facebook" 
-                        class="main-navigation__social-icon">
+                        <img src="/images/icons/social/facebook.svg" alt="Facebook"
+                            class="main-navigation__social-icon">
                     </a>
                 </li>
             </ul>
             <button class="main-navigation__mobile-button js-main-navigation__mobile-button">
-                <img src="images/icons/navigation.svg" alt="Otwórz / zamknij nawigację" class="main-navigation__mobile-button-image">
+                <img src="images/icons/navigation.svg" alt="Otwórz / zamknij nawigację"
+                    class="main-navigation__mobile-button-image">
             </button>
         </div>
     </nav>
@@ -83,9 +89,15 @@
     <div class="container" id="about-us">
         <section class="about-us">
             <div class="abous-us__text">
-            <h3 class="about-us__header">Nie jesteśmy tylko restauracją</h3>
-            <p class="about-us__paragraph">Tworzymy zespół ludzi, których pasją jest dbanie o każdy detal, który składa się na wyjątkowy wieczór spędzony u nas. Nasi kucharze kreują dania, nad których recepturą pracowali niekiedy połowę swojego życia, a tajniki swoich przepisów wynieśli z rodzinnych domów.</p>
-            <p class="about-us__paragraph">Nasi kelnerzy to ludzie z pasją, kochający tworzyć wyjątkowy klimat wokół naszych gości i serwować dania z elegancją i klasą. W naszej restauracji nie zabraknie nastrojowych dźwięków, smacznego wystroju i pieknych widoków z okien. To idealne miejsce, by spędzić czas z ukochaną osobą, zjeść obiad w rodzinnej atmosferze czy podziękować bliskiej osobie za to, że jest.</p>
+                <h3 class="about-us__header">Nie jesteśmy tylko restauracją</h3>
+                <p class="about-us__paragraph">Tworzymy zespół ludzi, których pasją jest dbanie o każdy detal, który
+                    składa się na wyjątkowy wieczór spędzony u nas. Nasi kucharze kreują dania, nad których recepturą
+                    pracowali niekiedy połowę swojego życia, a tajniki swoich przepisów wynieśli z rodzinnych domów.</p>
+                <p class="about-us__paragraph">Nasi kelnerzy to ludzie z pasją, kochający tworzyć wyjątkowy klimat wokół
+                    naszych gości i serwować dania z elegancją i klasą. W naszej restauracji nie zabraknie nastrojowych
+                    dźwięków, smacznego wystroju i pieknych widoków z okien. To idealne miejsce, by spędzić czas z
+                    ukochaną osobą, zjeść obiad w rodzinnej atmosferze czy podziękować bliskiej osobie za to, że jest.
+                </p>
             </div>
             <img class="about-us__image" src="images/about-us.jpg" alt="">
         </section>
@@ -95,17 +107,304 @@
         <h2 class="bookmark__header">Menu</h2>
         <p class="bookmark__description">Spójrz, co dla Ciebie przygotowaliśmy</p>
     </section>
-    <section class="bookmark bookmark--gallery" id="gallery">
-        <h2 class="bookmark__header">Galeria</h2>
-        <p class="bookmark__description">Tak wyglądają nasze posiłki</p>
-    </section>
-    <section class="bookmark bookmark--contact" id="contact">
-        <h2 class="bookmark__header">Kontakt</h2>
-        <p class="bookmark__description">Porozmawiaj z nami lub zarezerwuj stolik</p>
-    </section>
-    <section class="bookmark bookmark--route" id="route">
-        <h2 class="bookmark__header">Jak dojechać</h2>
-        <p class="bookmark__description">Łatwo nas znajdziesz</p>
-    </section>
+    <section class="container">
+        <section class="menu">
+            <div class="menu__column">
+                <h3 class="menu__header">Śniadania</h3>
+
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Angielskie</div>
+                            <div class="menu__position-price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            bekon / jajko sadzone / fasolka / pieczywo / masło
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Wiedeńskie</div>
+                            <div class="menu__position-price">22</div>
+                        </div>
+                        <div class="menu__description">
+                            jajka w koszulkach / bagietka / dżem / ser / wędlina
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Swojskie</div>
+                            <div class="menu__position-price">19</div>
+                        </div>
+                        <div class="menu__description">
+                            miód / twarożek / konfitura / świeże bułki
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Francuskie</div>
+                            <div class="menu__position-price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            croissant / komfitura morelowa / kawa latte
+                        </div>
+                    </li>
+                </ul>
+                <h3 class="menu__header">Zupy</h3>
+
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Żurek staropolski</div>
+                            <div class="menu__position-price">17</div>
+                        </div>
+                        <div class="menu__description">
+                            żurek z jajkiem / ziemniaki / kiełbasa / grzanki
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Rosół z kluskami</div>
+                            <div class="menu__position-price">16</div>
+                        </div>
+                        <div class="menu__description">
+                            rosół na bazie kurczaka / pietruszka / lane kluski
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Krem z brokuła</div>
+                            <div class="menu__position-price">15</div>
+                        </div>
+                        <div class="menu__description">
+                            brokół / grzanki
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Barszcz z kołdunami</div>
+                            <div class="menu__position-price">18</div>
+                        </div>
+                        <div class="menu__description">
+                            barszcz / kołduny / pietruszka
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu__column">
+                <h3 class="menu__header">Dania główne</h3>
+
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Pierś z kurczaka</div>
+                            <div class="menu__position-price">22</div>
+                        </div>
+                        <div class="menu__description">
+                            grillowana pierś z kurczaka / ryż basmanti / gotowane warzywa
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Schabowy po polsku</div>
+                            <div class="menu__position-price">27</div>
+                        </div>
+                        <div class="menu__description">
+                            schab / ziemniaki z okrasą / kapusta zasmażana
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">De Volaille</div>
+                            <div class="menu__position-price">25</div>
+                        </div>
+                        <div class="menu__description">
+                            mięso drobiowe / puree ziemniaczane / zestaw surówek
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Mintaj z fytkami</div>
+                            <div class="menu__position-price">24</div>
+                        </div>
+                        <div class="menu__description">
+                            ryba / frytki / zestaw surówek
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Lasagne</div>
+                            <div class="menu__position-price">23</div>
+                        </div>
+                        <div class="menu__description">
+                            sos pomidorowy / mięso wieprzowe / makaron
+                        </div>
+                    </li>
+                </ul>
+                <h3 class="menu__header">Sałatki</h3>
+
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Z kurczakiem</div>
+                            <div class="menu__position-price">21</div>
+                        </div>
+                        <div class="menu__description">
+                            sałatka / kurczak / kukurydza / sos majonezowy
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Grecka</div>
+                            <div class="menu__position-price">19</div>
+                        </div>
+                        <div class="menu__description">
+                            sałata / feta / oliwki / pomidor
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Z łososiem</div>
+                            <div class="menu__position-price">23</div>
+                        </div>
+                        <div class="menu__description">
+                            sałata / łosoś / oliwki / ogórek kiszony
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="menu__column">
+                <h3 class="menu__header">Desery</h3>
+
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Puchar lodowy</div>
+                            <div class="menu__position-price">16</div>
+                        </div>
+                        <div class="menu__description">
+                            3 gałki lodów z owocami i bitą śmietaną
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Szarlotka</div>
+                            <div class="menu__position-price">13</div>
+                        </div>
+                        <div class="menu__description">
+                            jabłka / cynamon / 2 gałki lodów
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Sernik na zimno</div>
+                            <div class="menu__position-price">15</div>
+                        </div>
+                        <div class="menu__description">
+                            tradycyjny sernik na zimno z polewą czekoladową
+                        </div>
+                    </li>
+                </ul>
+                <h3 class="menu__header">Napoje</h3>
+
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Coca-Cola</div>
+                            <div class="menu__position-price">7</div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Domowa lemionada</div>
+                            <div class="menu__position-price">13</div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Herbata Zielona</div>
+                            <div class="menu__position-price">11</div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Herbata Czarna</div>
+                            <div class="menu__position-price">10</div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Gorąca czekolada</div>
+                            <div class="menu__position-price">12</div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Kawa Latte</div>
+                            <div class="menu__position-price">14</div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <div class="menu__position">
+                            <div class="menu__position-name">Kawa Capuccino</div>
+                            <div class="menu__position-price">14</div>
+                        </div>
+                    </li>
+            </div>
+        </section>
+        </div>
+        <section class="bookmark bookmark--gallery" id="gallery">
+            <h2 class="bookmark__header">Galeria</h2>
+            <p class="bookmark__description">Tak wyglądają nasze posiłki</p>
+        </section>
+        <section class="bookmark bookmark--contact" id="contact">
+            <h2 class="bookmark__header">Kontakt</h2>
+            <p class="bookmark__description">Porozmawiaj z nami lub zarezerwuj stolik</p>
+        </section>
+        <section class="bookmark bookmark--route" id="route">
+            <h2 class="bookmark__header">Jak dojechać</h2>
+            <p class="bookmark__description">Łatwo nas znajdziesz</p>
+        </section>
 </body>
+
 </html>
